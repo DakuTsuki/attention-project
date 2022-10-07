@@ -1,0 +1,135 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  background:#555654;
+  width:100%
+}
+header{
+  margin-top: 37px;
+    margin-left: 84px;
+    display: flex;
+    justify-content: space-between;
+    width: 103rem;
+    align-items: center;
+}
+/* .nav-container{
+  display: flex;
+    /* width: 3rem; 
+    justify-content: space-between;
+    width: 49rem;
+} */
+.nav-container ul{
+  display: flex;
+    align-items: center;
+    /* width: 25rem;*/
+}
+.nav-container ul li{
+  width: 141px;
+  /* text-decoration: none; */
+  list-style: none;
+  /* color: white;*/
+}
+.nav-container ul li .headerList{
+  color: #cecece;
+  text-decoration: none;
+  font-size: 19px;
+}
+#signIn{
+  width: 10rem;
+}
+#blackButton{
+  border: 1px solid #79897a;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px
+}
+#requestA{
+  width: 16rem;
+ 
+}
+.whiteButton{
+  font-size: 19px;
+  background: white;
+  padding: 10px;
+  text-decoration: none;
+  padding-left: 40px;
+  border: 2px solid #79897a;
+  padding-right: 40px;
+  color: #292929;
+}
+.firstArticle{
+  display: flex;
+    justify-content: space-between;
+    width: 99rem;
+}
+.comprehensive{
+  margin-left: 220px;
+  margin-top: 260px;
+}
+.comprehensive h3{
+  color: white;
+  width: 503px;
+  margin-bottom: 55px;
+  /* font-family: robust; */
+  line-height: 49px;
+  font-size: 50px;
+}
+.comprehensive p{
+  color: #e9e9e9;
+  font-size: 27px;
+  width: 590px;
+  letter-spacing: 1px;
+  /* font-size: 16px;*/
+  margin-bottom: 72px;
+}
+.businessEmail{
+  display: grid;
+    grid-template-areas: "input a";
+    /* grid-gap: 0px; */
+    width: 31rem;
+    font-size: 20px;
+}
+.businessEmail input {
+  display: grid;
+  padding: 18px;
+  width: 21rem;
+  border: 3px solid #6c6c6b;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: start;
+}
+.businessEmail ::placeholder{
+  color: black;
+  font-weight:800;
+  font-size: 20px;
+}
+.businessEmail a {
+  display: grid;
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 11px;
+  text-align: center;
+  align-items: center;
+  padding-left: 37px;
+  width: 136px;
+  padding-right: 37px;
+}
+.rectangle1 {
+  background: url(./Rectangle\ 1.png);
+  display: flex;
+  /* height: 100%; */
+  /* width: 100%; */
+  width: 36rem;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.rectangle1 img{
+  margin-top: 92px;
+  width: 39rem;
+  height: 32rem;
+}
